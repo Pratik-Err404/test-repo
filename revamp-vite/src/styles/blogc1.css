@@ -1,0 +1,163 @@
+
+.froker-blog {
+    text-align: center;
+    font-family: "-", sans-serif;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .froker-blog-span {
+    color: #f76f32;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  
+  .froker-blog-span3 {
+    color: #3d3d3d;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .sub {
+    color: #3d3d3d;
+    text-align: center;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: clamp(24px, 5vw, 48px);
+    font-weight: 400;
+    position: relative;
+    width: 100%; 
+    max-width: 834px; 
+    margin: 2rem auto; 
+  }
+  
+.blogs{
+    display: flex;
+}
+.boox1
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.blogimg1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.subbboox{
+width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.subboox{
+    width:100%;
+    height: 100%;
+}
+
+.blogimg2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.sideblog{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.boox2{
+    height: 60%;
+    width: 100%;
+    text-decoration: none;
+
+
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+}
+
+.boox3{
+    height: 50%;
+    width: auto;
+    display: flex;
+    cursor: pointer;
+}
+.side{
+    width:100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+
+@media only screen and(max-width:900px){
+    .blogs{
+        display: flex;
+        flex-direction: column;
+    }
+    .sideblog{
+        width:100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .sub {
+        font-size: clamp(16px, 4vw, 32px);
+    }
+    .blogs{
+        flex-direction: column;
+        width: 100%;
+    }
+    .bokaa,
+    .boka{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subbboox{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .blogimg1,
+    .blogimg2{
+        width: 100%;
+        height: 100;
+        object-fit: cover;
+        /* border-radius: 1rem; */
+    }
+    .sideblog {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .boox1{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .boox2{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+}
